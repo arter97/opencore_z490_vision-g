@@ -4,6 +4,9 @@
 /EFI/*
 !/EFI/OC/
 
+# Ignore the main config.plist to hide sensitive board information
+/EFI/OC/config.plist
+
 .fseventsd
 .Spotlight-V100
 .TemporaryItems
